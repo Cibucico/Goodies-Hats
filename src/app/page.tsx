@@ -34,7 +34,7 @@ export default function Home() {
         {/* BG image overlay */}
         <div className="absolute inset-0 opacity-30">
           <Image
-            src="https://images.unsplash.com/photo-1590159983013-d4165b01adb0?w=1600&h=900&fit=crop&q=80"
+            src="https://images.unsplash.com/photo-1633677263781-610f76009206?w=1600&h=900&fit=crop&q=80"
             alt="SA wedding hat hero"
             fill
             className="object-cover"
@@ -130,9 +130,9 @@ export default function Home() {
           </div>
           <div className="flex-1 grid grid-cols-3 gap-3">
             {[
-              "https://images.unsplash.com/photo-1529958030586-3aae4ca485ff?w=300&h=300&fit=crop",
-              "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=300&h=300&fit=crop",
-              "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=300&fit=crop",
+              "https://images.unsplash.com/photo-1601980265524-04468b355ac3?w=300&h=300&fit=crop",
+              "https://images.unsplash.com/photo-1686562376391-966faa514647?w=300&h=300&fit=crop",
+              "https://images.unsplash.com/photo-1784725557358-d58d0d4c1baf?w=300&h=300&fit=crop",
             ].map((src, i) => (
               <div key={i} className="rounded-xl overflow-hidden aspect-square relative">
                 <Image src={src} alt="Custom hat" fill className="object-cover" sizes="120px" />

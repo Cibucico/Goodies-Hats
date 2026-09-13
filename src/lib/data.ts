@@ -42,10 +42,10 @@ export const hats: Hat[] = [
     description:
       "Stunning wide-brim sinamay hat perfect for bridesmaids and mother of the bride. Features bold blue weave with floral accent and ribbon trim. A signature SA church wedding look.",
     image:
-      "https://images.unsplash.com/photo-1590159983013-d4165b01adb0?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1633677263781-610f76009206?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1590159983013-d4165b01adb0?w=600&h=600&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1521499892833-73209e2d7b96?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1633677263781-610f76009206?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1633677263253-6d61486a34e8?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["S", "M", "L", "XL"],
     inStock: true,
@@ -65,9 +65,9 @@ export const hats: Hat[] = [
     description:
       "Eye-catching wide-brim hat adorned with 3D floral embellishments. Perfect for the mother of the bride or wedding guest who wants to turn heads. Pure SA fashion royalty.",
     image:
-      "https://images.unsplash.com/photo-1529958030586-3aae4ca485ff?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1601980265524-04468b355ac3?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1529958030586-3aae4ca485ff?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1601980265524-04468b355ac3?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["S", "M", "L"],
     inStock: true,
@@ -87,9 +87,9 @@ export const hats: Hat[] = [
     description:
       "Elegant bridal fascinator with delicate lace netting and feather trim. Available as matching sets for bridal parties of 4–10. Handcrafted in South Africa.",
     image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1580973618808-4c024bd76d70?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1580973618808-4c024bd76d70?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["One Size"],
     inStock: true,
@@ -108,9 +108,9 @@ export const hats: Hat[] = [
     description:
       "Bold yellow sinamay hat with sculptured brim and sunflower accent. Makes any wedding guest unforgettable. A true Mzansi statement piece.",
     image:
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1686562376391-966faa514647?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1686562376391-966faa514647?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["S", "M", "L", "XL"],
     inStock: true,
@@ -128,9 +128,9 @@ export const hats: Hat[] = [
     description:
       "Sophisticated ivory sinamay with gold trim detailing. Wide brim for maximum elegance at weddings and upmarket church events. The classic choice for mothers.",
     image:
-      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1633677263253-6d61486a34e8?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1633677263253-6d61486a34e8?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["S", "M", "L", "XL"],
     inStock: true,
@@ -149,9 +149,9 @@ export const hats: Hat[] = [
     description:
       "Structured pillbox sinamay hat in rich lavender with purple floral corsage. Lightweight and comfortable for all-day wear at weddings and church services.",
     image:
-      "https://images.unsplash.com/photo-1551488831-00ddcio72e88?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1784725557358-d58d0d4c1baf?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1551488831-00ddcio72e88?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1784725557358-d58d0d4c1baf?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["One Size", "S", "M"],
     inStock: true,
@@ -170,9 +170,9 @@ export const hats: Hat[] = [
     description:
       "Dignified wide-brim sinamay in deep black with black satin bow. The respectful choice for funeral services, memorial services and umngcwabo. Timeless SA elegance.",
     image:
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1779447810263-9ac2da5cf6f9?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1779447810263-9ac2da5cf6f9?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["S", "M", "L", "XL"],
     inStock: true,
@@ -192,9 +192,9 @@ export const hats: Hat[] = [
     description:
       "Modest navy fascinator with veil netting and feather accent. Understated and respectful. Perfect for church funerals and formal memorial services.",
     image:
-      "https://images.unsplash.com/photo-1521119989659-a83eee488004?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1595968314106-3decaba30aad?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1521119989659-a83eee488004?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1595968314106-3decaba30aad?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["One Size"],
     inStock: true,
@@ -212,9 +212,9 @@ export const hats: Hat[] = [
     description:
       "Rich maroon sinamay hat with gold trim detail — a respectful yet dignified choice. Ideal for church funeral services. Velvet inner band for comfort.",
     image:
-      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1585643481460-8152d117b787?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1585643481460-8152d117b787?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["S", "M", "L"],
     inStock: true,
@@ -233,9 +233,9 @@ export const hats: Hat[] = [
     description:
       "Delicate black lace fascinator with veil and black rose detail. A refined, respectful piece for funeral services. Lightweight and easy to wear all day.",
     image:
-      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1615120982490-c5b7cf8b3fe1?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1615120982490-c5b7cf8b3fe1?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["One Size"],
     inStock: true,
@@ -253,9 +253,9 @@ export const hats: Hat[] = [
     description:
       "Deep forest green sinamay wide brim with black trim — appropriate for church and traditional funeral ceremonies. A respectful alternative to black.",
     image:
-      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1620686847763-2e234d23e825?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1620686847763-2e234d23e825?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["S", "M", "L", "XL"],
     inStock: true,
@@ -274,9 +274,9 @@ export const hats: Hat[] = [
     description:
       "Extraordinary teal wide-brim sinamay with gold embroidery accents. Perfect for weddings, Easter Sunday, graduation church services. Pure Mzansi head fashion.",
     image:
-      "https://images.unsplash.com/photo-1519748771451-a94c596fad67?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1603645108226-7e6d971ffb53?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1519748771451-a94c596fad67?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1603645108226-7e6d971ffb53?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["S", "M", "L"],
     inStock: true,
@@ -296,9 +296,9 @@ export const hats: Hat[] = [
     description:
       "Complete set of 6 matching candy pink wide-brim sinamay hats. Perfect for bridesmaids — all made to match your exact colour code. Delivery 14–21 days.",
     image:
-      "https://images.unsplash.com/photo-1566479179817-b3d92db0a9b9?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1633677264398-8fbedfe2cccd?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1566479179817-b3d92db0a9b9?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1633677264398-8fbedfe2cccd?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["Set of 6"],
     inStock: true,
