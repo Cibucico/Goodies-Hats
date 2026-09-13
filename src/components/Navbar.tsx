@@ -27,6 +27,8 @@ export default function Navbar() {
           <Link href="/funeral" className="hover:text-[#C9902D] transition-colors">Funeral</Link>
           <Link href="/custom" className="hover:text-[#C9902D] transition-colors">Create Yours</Link>
           <Link href="/track" className="hover:text-[#C9902D] transition-colors">Track Order</Link>
+          <Link href="/auth/signin" className="hover:text-[#C9902D] transition-colors">Sign In</Link>
+          <Link href="/auth/signup" className="btn-gold text-sm py-2 px-4">Sign Up</Link>
         </div>
 
         {/* Right icons */}
