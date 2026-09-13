@@ -7,7 +7,7 @@ export default function UnderConstructionModal({ onClose }: { onClose: () => voi
     return () => { document.body.style.overflow = ""; };
   }, []);
 
-  const phone = "27120000000";
+  const phone = "27609609830";
   const message = encodeURIComponent("Hi Goodies Hats! I'd like to place an order and pay 👒");
   const waUrl = `https://wa.me/${phone}?text=${message}`;
 

@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function WhatsAppButton() {
   const [hovered, setHovered] = useState(false);
-  const phone = "27120000000"; // ← replace with real WhatsApp number
+  const phone = "27609609830";
   const message = encodeURIComponent("Hi Goodies Hats! I'd like to enquire about a hat 👒");
   const url = `https://wa.me/${phone}?text=${message}`;
 
