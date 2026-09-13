@@ -128,9 +128,9 @@ export const hats: Hat[] = [
     description:
       "Sophisticated ivory sinamay with gold trim detailing. Wide brim for maximum elegance at weddings and upmarket church events. The classic choice for mothers.",
     image:
-      "https://images.unsplash.com/photo-1633677263253-6d61486a34e8?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1612970742471-e80150ddb731?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1633677263253-6d61486a34e8?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1612970742471-e80150ddb731?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["S", "M", "L", "XL"],
     inStock: true,
@@ -149,9 +149,9 @@ export const hats: Hat[] = [
     description:
       "Structured pillbox sinamay hat in rich lavender with purple floral corsage. Lightweight and comfortable for all-day wear at weddings and church services.",
     image:
-      "https://images.unsplash.com/photo-1784725557358-d58d0d4c1baf?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1609521593261-b4187b27416a?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1784725557358-d58d0d4c1baf?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1609521593261-b4187b27416a?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["One Size", "S", "M"],
     inStock: true,
@@ -170,9 +170,9 @@ export const hats: Hat[] = [
     description:
       "Dignified wide-brim sinamay in deep black with black satin bow. The respectful choice for funeral services, memorial services and umngcwabo. Timeless SA elegance.",
     image:
-      "https://images.unsplash.com/photo-1779447810263-9ac2da5cf6f9?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1642517792282-6b74ac9f4b2e?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1779447810263-9ac2da5cf6f9?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1642517792282-6b74ac9f4b2e?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["S", "M", "L", "XL"],
     inStock: true,
