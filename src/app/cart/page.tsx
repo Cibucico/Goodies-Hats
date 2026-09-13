@@ -3,11 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { useCart, cartTotal } from "@/lib/store";
 import { useState } from "react";
+import UnderConstructionModal from "@/components/UnderConstructionModal";
 
 export default function CartPage() {
   const { state, dispatch } = useCart();
   const total = cartTotal(state.items);
   const [checkoutDone, setCheckoutDone] = useState(false);
+  const [showPaymentModal, setShowPaymentModal] = useState(false);
 
   if (checkoutDone) {
     return (
@@ -38,6 +40,7 @@ export default function CartPage() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
+      {showPaymentModal && <UnderConstructionModal onClose={() => setShowPaymentModal(false)} />}
       <h1 className="text-3xl font-bold text-[#1A1A1A] mb-8">Your Cart</h1>
 
       <div className="flex flex-col lg:flex-row gap-8">
@@ -79,7 +82,7 @@ export default function CartPage() {
                 <span className="text-[#C9902D]">R{(total + (total >= 1500 ? 0 : 150)).toLocaleString()}</span>
               </div>
             </div>
-            <button onClick={() => setCheckoutDone(true)} className="btn-gold w-full py-4 text-base mb-3">Checkout →</button>
+            <button onClick={() => setShowPaymentModal(true)} className="btn-gold w-full py-4 text-base mb-3">Checkout →</button>
             <Link href="/shop" className="block text-center text-sm text-gray-400 hover:text-[#C9902D] transition-colors">Continue Shopping</Link>
 
             <div className="mt-5 pt-5 border-t space-y-2">
