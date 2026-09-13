@@ -42,10 +42,10 @@ export const hats: Hat[] = [
     description:
       "Stunning wide-brim sinamay hat perfect for bridesmaids and mother of the bride. Features bold blue weave with floral accent and ribbon trim. A signature SA church wedding look.",
     image:
-      "https://images.unsplash.com/photo-1633677263781-610f76009206?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1533055640609-24b498dfd74c?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1633677263781-610f76009206?w=600&h=600&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1633677263253-6d61486a34e8?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1533055640609-24b498dfd74c?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1552399230-e073362b3bf4?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["S", "M", "L", "XL"],
     inStock: true,
@@ -65,9 +65,9 @@ export const hats: Hat[] = [
     description:
       "Eye-catching wide-brim hat adorned with 3D floral embellishments. Perfect for the mother of the bride or wedding guest who wants to turn heads. Pure SA fashion royalty.",
     image:
-      "https://images.unsplash.com/photo-1601980265524-04468b355ac3?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1529958030586-3aae4ca485ff?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1601980265524-04468b355ac3?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1529958030586-3aae4ca485ff?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["S", "M", "L"],
     inStock: true,
@@ -87,9 +87,9 @@ export const hats: Hat[] = [
     description:
       "Elegant bridal fascinator with delicate lace netting and feather trim. Available as matching sets for bridal parties of 4–10. Handcrafted in South Africa.",
     image:
-      "https://images.unsplash.com/photo-1580973618808-4c024bd76d70?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1609521593691-801b21ce590b?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1580973618808-4c024bd76d70?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1609521593691-801b21ce590b?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["One Size"],
     inStock: true,
@@ -108,9 +108,9 @@ export const hats: Hat[] = [
     description:
       "Bold yellow sinamay hat with sculptured brim and sunflower accent. Makes any wedding guest unforgettable. A true Mzansi statement piece.",
     image:
-      "https://images.unsplash.com/photo-1686562376391-966faa514647?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1559560823-8b9e5becd4ba?w=600&h=600&fit=crop&q=80",
     images: [
-      "https://images.unsplash.com/photo-1686562376391-966faa514647?w=600&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1559560823-8b9e5becd4ba?w=600&h=600&fit=crop&q=80",
     ],
     sizes: ["S", "M", "L", "XL"],
     inStock: true,
