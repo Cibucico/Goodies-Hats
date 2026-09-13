@@ -9,8 +9,9 @@ import { notFound } from "next/navigation";
 
 export default function ProductPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
-  const hat = hats.find((h) => h.id === id);
-  if (!hat) notFound();
+  const hatFound = hats.find((h) => h.id === id);
+  if (!hatFound) notFound();
+  const hat = hatFound!;
 
   const { dispatch } = useCart();
   const [selectedColour, setSelectedColour] = useState(hat.colors[0]);
