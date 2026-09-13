@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
   --gold: #C9902D;
@@ -10,30 +8,78 @@
   --charcoal: #1A1A1A;
 }
 
-@layer base {
-  body {
-    @apply bg-[#FDF8F0] text-[#1A1A1A] antialiased;
-    font-family: 'Inter', system-ui, sans-serif;
-  }
+body {
+  background-color: #FDF8F0;
+  color: #1A1A1A;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-@layer components {
-  .btn-gold {
-    @apply bg-[#C9902D] hover:bg-[#9A6E1F] text-white font-semibold px-6 py-3 rounded-full transition-all duration-200 shadow-md hover:shadow-lg active:scale-95;
-  }
-  .btn-outline {
-    @apply border-2 border-[#C9902D] text-[#C9902D] hover:bg-[#C9902D] hover:text-white font-semibold px-6 py-3 rounded-full transition-all duration-200;
-  }
-  .card-shadow {
-    @apply shadow-[0_4px_20px_rgba(0,0,0,0.08)] hover:shadow-[0_8px_30px_rgba(201,144,45,0.2)] transition-shadow duration-300;
-  }
-  .section-heading {
-    @apply text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-2;
-  }
-  .gold-underline::after {
-    content: '';
-    @apply block w-16 h-1 bg-[#C9902D] mt-2 mx-auto rounded-full;
-  }
+.btn-gold {
+  background-color: #C9902D;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  transition: all 0.2s;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+.btn-gold:hover {
+  background-color: #9A6E1F;
+  box-shadow: 0 8px 15px rgba(201,144,45,0.3);
+}
+.btn-gold:active {
+  transform: scale(0.97);
+}
+
+.btn-outline {
+  border: 2px solid #C9902D;
+  color: #C9902D;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  transition: all 0.2s;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  background: transparent;
+}
+.btn-outline:hover {
+  background-color: #C9902D;
+  color: white;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: box-shadow 0.3s;
+}
+.card-shadow:hover {
+  box-shadow: 0 8px 30px rgba(201,144,45,0.2);
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1A1A1A;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-heading { font-size: 2.25rem; }
+}
+
+.gold-underline::after {
+  content: '';
+  display: block;
+  width: 4rem;
+  height: 4px;
+  background-color: #C9902D;
+  margin: 0.5rem auto 0;
+  border-radius: 9999px;
 }
 
 .animate-fade-up {
